@@ -1,0 +1,12 @@
+Package: Cara1.0
+Title: Annotation package for the Cara1.0 object
+Description: Contains the Cara1.0 object to access data from several related annotation packages.
+Version: 1.0.0
+Author: Piero Palacios Bernuy <p.palacios.bernuy@gmail.com>
+Maintainer: Piero Palacios Bernuy <p.palacios.bernuy@gmail.com>
+Depends: R (>= 1.6), AnnotationDbi (>= 1.17.11), methods, OrganismDbi, GenomicFeatures, GO.db
+Imports: GenomicFeatures, AnnotationDbi
+License: Artistic-2.0
+organism: Coffea arabica
+species: Coffea arabica
+biocViews: AnnotationData, Genetics, OrganismDb, Coffea_arabica
