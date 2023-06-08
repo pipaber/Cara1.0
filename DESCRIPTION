@@ -22,4 +22,8 @@ GithubSHA1: 18853864110b5702388ba66e1f3552974797af7e
 NeedsCompilation: no
 Packaged: 2023-06-06 01:21:23 UTC; Piero
 VignetteBuilder: knitr
-Suggests: knitr, rmarkdown
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
