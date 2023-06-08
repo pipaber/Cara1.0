@@ -1,12 +1,25 @@
 Package: Cara1.0
 Title: Annotation package for the Cara1.0 object
-Description: Contains the Cara1.0 object to access data from several related annotation packages.
+Description: Contains the Cara1.0 to access data from several related annotation packages like TxDB and OrgDb packages. The use is to extract information from genes, trancripts, cds, etc for Coffea arabica.
 Version: 1.0.0
-Author: Piero Palacios Bernuy <p.palacios.bernuy@gmail.com>
-Maintainer: Piero Palacios Bernuy <p.palacios.bernuy@gmail.com>
-Depends: R (>= 1.6), AnnotationDbi (>= 1.17.11), methods, OrganismDbi, GenomicFeatures, GO.db
+Authors@R: person("Piero", "Palacios", email = "p.palacios.bernuy@gmai.com", role = c("cre", "aut"), comment = c(LinkedIn = "https://www.linkedin.com/in/piero-palacios-bernuy-30209087/"))
+Depends: R (>= 4.3.0), AnnotationDbi (>= 1.17.11), methods,
+        OrganismDbi, GenomicFeatures, GO.db
 Imports: GenomicFeatures, AnnotationDbi
 License: Artistic-2.0
 organism: Coffea arabica
 species: Coffea arabica
-biocViews: AnnotationData, Genetics, OrganismDb, Coffea_arabica
+biocViews: AnnotationData, OrganismDb
+RemoteType: github
+RemoteHost: api.github.com
+RemoteRepo: Cara1.0
+RemoteUsername: pipaber
+RemoteRef: HEAD
+RemoteSha: 18853864110b5702388ba66e1f3552974797af7e
+GithubRepo: Cara1.0
+GithubUsername: pipaber
+GithubRef: HEAD
+GithubSHA1: 18853864110b5702388ba66e1f3552974797af7e
+NeedsCompilation: no
+Packaged: 2023-06-06 01:21:23 UTC; Piero
+Built: R 4.3.0; ; 2023-06-06 01:21:23 UTC; windows
