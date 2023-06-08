@@ -1,0 +1,54 @@
+---
+title: "Cara1.0 Usage"
+author: "Piero Palacios Bernuy"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Cara1.0 Usage}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# Description
+
+This is a OrgDb created for Coffea arabica (coffee). The genome used for this
+package is Cara_1.0 retrieved from 
+[NCBI](https://www.ncbi.nlm.nih.gov/datasets/taxonomy/13443/)
+
+# Installation
+
+```         
+remotes::install_github("pipaber/Cara1.0")
+```
+
+# Usage
+
+```{r include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(warning=FALSE, message=FALSE,
+    dpi=180, fig.width=15,
+    fig.height=8,
+    echo=TRUE
+)
+```
+
+```{r}
+library(Cara1.0)
+
+## Extract genes
+g = genes(Cara1.0)
+g
+
+## Extract exons by genes (GRangesList)
+ex = exonsBy(Cara1.0, by = "gene")
+ex
+
+## Extract transcripts
+tr = transcriptsBy(Cara1.0, by = "gene")
+tr
+```
+
+```{r}
+sessionInfo()
+```
+

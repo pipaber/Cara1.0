@@ -1,2 +1,5 @@
 # A NAMESPACE is strictly required by R 2.14 or higher.
 import(OrganismDbi)
+import(GenomicFeatures)
+import(AnnotationDbi)
+
