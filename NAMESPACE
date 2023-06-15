@@ -2,4 +2,5 @@
 import(OrganismDbi)
 import(GenomicFeatures)
 import(AnnotationDbi)
+import(AnnotationHub)
 

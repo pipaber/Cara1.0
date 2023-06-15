@@ -8,7 +8,7 @@ Imports: GenomicFeatures, AnnotationDbi
 License: Artistic-2.0
 organism: Coffea arabica
 species: Coffea arabica
-biocViews: AnnotationData, OrganismDb, OrgDb, TxDb
+biocViews: AnnotationData, OrganismDb, OrgDb, TxDb, AnnotationHub
 RemoteType: github
 RemoteHost: api.github.com
 RemoteRepo: Cara1.0
