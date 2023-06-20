@@ -1,6 +1,3 @@
----
-theme: cayman
----
 # Cara1.0
 This is a OrgDb created for Coffea arabica (coffee). The genome used for this package is Cara_1.0 retrieved from [NCBI](https://www.ncbi.nlm.nih.gov/datasets/taxonomy/13443/) 
 
