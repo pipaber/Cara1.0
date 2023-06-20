@@ -17,9 +17,9 @@
   cls
   cls <- cls[c(1,19,45)]
   kts <- keytypes(Cara1.0)
-  kt <- kts[2]
+  kt <- kts[12]
   kts
-  ks <- head(keys(Cara1.0, keytype=kts[2]))
+  ks <- head(keys(Cara1.0, keytype=kt))
   ks
   res <- select(Cara1.0, keys=ks, columns=cls, keytype=kt)
   head(res)
