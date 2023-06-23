@@ -1,10 +1,10 @@
 Package: Cara1.0
 Title: Annotation package for the Cara1.0 object
 Description: Cara1.0 is an innovative software application designed to facilitate the exploration and extraction of biological information from numerous annotation packages, including the widely used TxDB and OrgDb packages. Its primary function is to glean critical information about genes, transcripts, and coding sequences (cds) amongst others, which is a crucial aspect of genomic research. The specialty of this tool is its focus on Coffea arabica, commonly known as Arabica coffee, a species that holds immense economic and scientific interest. By streamlining the process of data extraction and interpretation, Cara1.0 provides researchers an invaluable tool to enhance their understanding of this plant's genomic structure, contributing to the advancement of both agricultural practices and genetic science.
-Version: 1.0.0
+Version: 0.99.0
 Authors@R: person("Piero", "Palacios", email = "p.palacios.bernuy@gmail.com", role = c("cre", "aut"), comment = c(LinkedIn = "https://www.linkedin.com/in/piero-palacios-bernuy-30209087/", ORCID="0000-0001-6729-4080"))
 Depends: R (>= 4.3.0), AnnotationDbi (>= 1.17.11), methods, OrganismDbi, GenomicFeatures, GO.db
-Imports: GenomicFeatures, AnnotationDbi
+Imports: GenomicFeatures, AnnotationDbi, AnnotationHub
 License: Artistic-2.0
 organism: Coffea arabica
 species: Coffea arabica
