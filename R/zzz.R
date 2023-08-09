@@ -27,5 +27,7 @@ TxDb.Carabica.NCBI <- function() {
 
     load(system.file("data","graphInfo.rda",package=pkgname,
                         lib.loc=libname))
+    OrganismDbi:::.loadOrganismDbiPkg(pkgname=pkgname,
+                        graphInfo=graphInfo)
 
 }
