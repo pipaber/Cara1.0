@@ -14,11 +14,15 @@ org.Carabica.eg.db <- function() {
   return(annotation_data)
 }
 
+install.packages("./org.Carabica.eg.db", repos=NULL)
+
 TxDb.Carabica.NCBI <- function() {
   ah <- AnnotationHub()
   annotation_data <- ah[['AH111589']]  
   return(annotation_data)
 }
+
+install.packages("./TxDb.Carabica.NCBI", repos=NULL)
 
 
 .onLoad <- function(libname, pkgname) {
