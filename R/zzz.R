@@ -8,16 +8,14 @@
 
 library(AnnotationHub)
 
-ah <- AnnotationHub()
-
 org.Carabica.eg.db <- function() {
-  
+  ah <- AnnotationHub()
   annotation_data <- ah[['AH111588']]  
   return(annotation_data)
 }
 
 TxDb.Carabica.NCBI <- function() {
-  
+  ah <- AnnotationHub()
   annotation_data <- ah[['AH111589']]  
   return(annotation_data)
 }
