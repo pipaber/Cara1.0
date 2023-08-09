@@ -14,7 +14,7 @@ org.Carabica.eg.db <- function() {
   return(annotation_data)
 }
 
-install.packages("./org.Carabica.eg.db", repos=NULL)
+install.packages("./org.Carabica.eg.db", repos="source")
 
 TxDb.Carabica.NCBI <- function() {
   ah <- AnnotationHub()
@@ -22,7 +22,7 @@ TxDb.Carabica.NCBI <- function() {
   return(annotation_data)
 }
 
-install.packages("./TxDb.Carabica.NCBI", repos=NULL)
+install.packages("./TxDb.Carabica.NCBI", repos="source")
 
 
 .onLoad <- function(libname, pkgname) {
