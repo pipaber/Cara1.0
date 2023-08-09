@@ -2,8 +2,8 @@
 .onLoad <- function(libname, pkgname) {
     load(system.file("data","graphInfo.rda",package=pkgname,
                         lib.loc=libname))
-    # OrganismDbi:::.loadOrganismDbiPkg(pkgname=pkgname,
-    #                     graphInfo=graphInfo)
+    OrganismDbi:::.loadOrganismDbiPkg(pkgname=pkgname,
+                        graphInfo=graphInfo)
 }
 
 
